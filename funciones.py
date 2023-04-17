@@ -16,7 +16,7 @@ En este apartado, se encontrarán las funciones que se realizaron para poder nav
 import pandas as pd
 
 # Primero importamos el archivo para que podamos realizar las consultas necesarias.
-plataformas_df = pd.read_csv(r'C:\Users\Manuel\Desktop\Henry\LABS\MLOPS_PI\Dataset\Streaming_services_clean.csv')
+plataformas_df = pd.read_csv('./Dataset/Streaming_services_clean.csv')
 
 # Consulta N°1: Película con mayor duración según el año, la plataforma de streaming y su tipo de duración (min).
 def max_duration(anio: int, plataforma :str, dtype: str):
