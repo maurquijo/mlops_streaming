@@ -19,7 +19,7 @@ def index():
 def get_max_duration(anio: int, plataforma :str, dtype: str):
     return max_duration(anio, plataforma, dtype)
 
-# Prueba de consulta:
+# Prueba de consulta: https://mlops-pi.onrender.com/get_max_duration/2017/amazon%20prime/min
 
 # Consulta N°2: Cantidad de películas por plataforma con un puntaje mayor a XX en un año determinado.
 # Creamos el url para que se pueda realizar dicha consulta.
@@ -27,7 +27,7 @@ def get_max_duration(anio: int, plataforma :str, dtype: str):
 def get_score_count(plataforma: str, scored: float, anio: int):
     return score_count(plataforma, scored, anio)
 
-# Prueba de consulta:
+# Prueba de consulta: https://mlops-pi.onrender.com/get_score_count/amazon%20prime/3.4/2016
 
 # Consulta N°3: Cantidad de películas que se pueden encontrar según la plataforma.
 # Creamos el url para que se pueda realizar dicha consulta.
@@ -35,7 +35,7 @@ def get_score_count(plataforma: str, scored: float, anio: int):
 def get_count_platform(plataforma: str): 
     return count_platform(plataforma)   
 
-# Prueba de consulta:
+# Prueba de consulta: https://mlops-pi.onrender.com/get_count_platform/hulu
 
 # Consulta N°4: Actor que más se repite en los elencos según la plataforma y el año de la producción cinematográfica. 
 # Creamos el url para que se pueda realizar dicha consulta.
@@ -43,7 +43,7 @@ def get_count_platform(plataforma: str):
 def get_actor(plataforma: str, anio: int):
     return actor(plataforma,anio)
 
-# Prueba de consulta:
+# Prueba de consulta: https://mlops-pi.onrender.com/get_actor/netflix/2019
 
 # Consulta N°5: La cantidad de contenidos/productos que se publicó por país y año.
 # Creamos el url para que se pueda realizar dicha consulta.
@@ -51,7 +51,7 @@ def get_actor(plataforma: str, anio: int):
 def prod_per_country(tipo: str, pais: str, anio: int):
     return prod_country(tipo,pais,anio)
 
-# Prueba de consulta: 
+# Prueba de consulta: https://mlops-pi.onrender.com/prod_per_country/movie/united%20states/2017
 
 # Consulta N°6: La cantidad total de contenidos según el rating de audiencia dado (para que publico fue clasificada la pelicula).
 # Creamos el url para que se pueda realizar dicha consulta.
@@ -59,4 +59,4 @@ def prod_per_country(tipo: str, pais: str, anio: int):
 def get_contents(rating:str):
     return contents(rating)
 
-# Prueba de consulta:
+# Prueba de consulta: https://mlops-pi.onrender.com/get_contents/13%2B
