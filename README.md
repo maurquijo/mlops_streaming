@@ -8,7 +8,7 @@
 
 El objetivo principal de este proyecto es crear una API, donde se puedan realizar ciertas consultas requeridas por un cliente a una base de datos que se construyó a partir de varios archivos, pertenecientes a plataformas de streaming que se mencionarán a lo largo del trabajo. 
 
-El [repositorio](https://github.com/maurquijo/MLOPS_Streaming_Services/tree/main/Datasets "repositorio") que vamos a utilizar se trata de diferentes archivos de tipo .csv, que reflejan las películas y series que se encuentran en las siguientes plataformas de streaming:
+El [repositorio](https://github.com/maurquijo/mlops_streaming/tree/main/Dataset "repositorio") que vamos a utilizar se trata de diferentes archivos de tipo .csv, que reflejan las películas y series que se encuentran en las siguientes plataformas de streaming:
 - Amazon Prime.
 - Disney Plus.
 - Hulu.
@@ -20,7 +20,7 @@ Cada uno de ellos consta de ciertas filas y columnas donde se podrán ver el tip
 
 ### Proceso de ETL (Extract, Transform, Load).
 
-Dentro de este [archivo](https://github.com/maurquijo/MLOPS_Streaming_Services/blob/main/MLOPs_Streaming_Services.ipynb "archivo"), se podrá observar todo el proceso de ETL de los datos. 
+Dentro de este [archivo](https://github.com/maurquijo/mlops_streaming/blob/main/MLOPs_Streaming_Services.ipynb "archivo"), se podrá observar todo el proceso de ETL de los datos. 
 
 Cabe mencionar que se realizaron diferentes transformaciones que se consideraron necesarias para poder llevar a cabo este proyecto, teniendo en cuenta la posible elaboración de un sistema de recomendación para nuevos usuarios de las plataformas mencionadas en un futuro.
 
@@ -30,7 +30,7 @@ Generalmente, las transformaciones que se ejecutaron tienen que ver con el trata
 
 ### Desarrollo de la API.
 
-En este [archivo](https://github.com/maurquijo/MLOPS_Streaming_Services/blob/main/Funciones_API.ipynb "archivo"), se podrán ver las funciones desarrolladas para poder consultar a los datos obtenidos, a través de parámetros variables que ingrese el usuario en la [API](https://mlops-pi.onrender.com/docs#/"API").
+En este [archivo](https://github.com/maurquijo/mlops_streaming/blob/main/funciones.py "archivo"), se podrán ver las funciones desarrolladas para poder consultar a los datos obtenidos, a través de parámetros variables que ingrese el usuario en la [API](https://mlops-pi.onrender.com/docs#/"API").
 
 El cliente desea obtener ciertos datos con respecto a:
 1. Película con mayor duración según el año, la plataforma de streaming y su tipo de duración (min). [Ver ejemplo](https://mlops-pi.onrender.com/get_max_duration/2017/Disney%20Plus/min "Ver ejemplo").
@@ -40,7 +40,7 @@ El cliente desea obtener ciertos datos con respecto a:
 5. La cantidad de contenidos/productos que se publicó por país y año. [Ver ejemplo](https://mlops-pi.onrender.com/prod_per_country/movie/united%20states/2017 "Ver ejemplo").
 6. La cantidad total de contenidos según el rating de audiencia dado (para que publico fue clasificada la pelicula). [Ver ejemplo](https://mlops-pi.onrender.com/get_contents/g "Ver ejemplo").
 
-Por otro lado, en este [documento de Python](https://github.com/maurquijo/MLOPS_Streaming_Services/blob/main/main.py "documento de Python"), se podrá observar el código utilizado para la creación de la aplicación.
+Por otro lado, en este [documento de Python](https://github.com/maurquijo/mlops_streaming/blob/main/main.py "documento de Python"), se podrá observar el código utilizado para la creación de la aplicación.
 
 <hr>
 
