@@ -32,7 +32,7 @@ Generalmente, las transformaciones que se ejecutaron tienen que ver con el trata
 
 En este [archivo](https://github.com/maurquijo/mlops_streaming/blob/main/funciones.py "archivo"), se podrán ver las funciones desarrolladas para poder consultar a los datos obtenidos, a través de parámetros variables que ingrese el usuario. Luego, se tomaron las funciones del archivo mencionado anteriormente, y se construyó una API para que se puedan realizar las consultas de manera correcta desde cualquier dispositivo, donde se puede acceder mediante este [link](https://mlops-pi.onrender.com/docs#/"link").
 
-Dentro de esta aplicación, se podrán realizar dichas queries a la base de datos:
+Dentro de esta aplicación, se podrán realizar las siguientes queries a la base de datos:
 
 1. Película con mayor duración según el año, la plataforma de streaming y su tipo de duración (min). [Ver ejemplo](https://mlops-pi.onrender.com/get_max_duration/2017/Disney%20Plus/min "Ver ejemplo").
 2. Cantidad de películas por plataforma con un puntaje mayor a XX en un año determinado. [Ver ejemplo](https://mlops-pi.onrender.com/get_score_count/Amazon%20Prime/3.4/2016 "Ver ejemplo").
