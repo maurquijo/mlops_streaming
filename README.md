@@ -39,7 +39,7 @@ Dentro de esta aplicación, se podrán realizar las siguientes queries a la base
 3. Cantidad de películas que se pueden encontrar según la plataforma. En este [ejemplo](https://mlops-pi.onrender.com/get_count_platform/hulu "ejemplo"), se buscó la cantidad de películas/contenido que se encuentra disponible en Hulu.
 4. Actor que más se repite en los elencos según la plataforma y el año de la producción cinematográfica. En este [ejemplo](https://mlops-pi.onrender.com/get_actor/netflix/2019 "ejemplo"), se buscó el actor que más se repite en los elencos de las producciones cinematográficas disponibles en Netflix en el año 2019.
 6. La cantidad de contenidos/productos que se publicó por país y año. En este [ejemplo](https://mlops-pi.onrender.com/prod_per_country/movie/united%20states/2017 "ejemplo"), se buscó la cantidad de películas originadas en Estados Unidos (indicado como: "united states") que se publicaron en 2017.
-7. La cantidad total de contenidos según el rating de audiencia dado (para que publico fue clasificada la pelicula). [ejemplo](https://mlops-pi.onrender.com/get_contents/13%2B "ejemplo"), se buscó la cantidad de contenido que es apto para mayores de 13 años (indicado como: "13+").
+7. La cantidad total de contenidos según el rating de audiencia dado (para que publico fue clasificada la pelicula). En este [ejemplo](https://mlops-pi.onrender.com/get_contents/13%2B "ejemplo"), se buscó la cantidad de contenido que es apto para mayores de 13 años (indicado como: "13+").
 
 Por otro lado, en este [documento de Python](https://github.com/maurquijo/mlops_streaming/blob/main/main.py "documento de Python"), se podrá observar el código utilizado para la creación de la aplicación.
 
