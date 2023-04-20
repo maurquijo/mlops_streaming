@@ -48,7 +48,7 @@ Por otro lado, en este [documento de Python](https://github.com/maurquijo/mlops_
 
 ### Video explicativo. 
 
-Por otro lado, se desarrrolló un video explicativo para mostrar el proyecto de una manera más amigable. Se puede ver clickeando en este [link](https://www.youtube.com/watch?v=TUYXXxH9EKc&t=7s "link"). 
+Por otro lado, se desarrrolló un video explicativo para mostrar el proyecto de una manera más amigable. Se puede ver clickeando en este [link](https://www.youtube.com/watch?v=Zaw_DTz3VEc "link"). 
 
 <hr>
 
